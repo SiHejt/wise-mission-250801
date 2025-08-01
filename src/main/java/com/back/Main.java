@@ -55,11 +55,11 @@ public class Main {
                 for (int i = 0; i < wiseSayings.size(); i++) {
                     WiseSaying ws = wiseSayings.get(i);
                     if (ws.id == id) {
-                        System.out.println("명언(기존) : " + wiseSayings.get(i).content);
+                        System.out.println("명언(기존) : " + ws.content);
                         System.out.print("명언 : ");
                         String newContent = sc.nextLine();
 
-                        System.out.println("작가(기존) : " + wiseSayings.get(i).author);
+                        System.out.println("작가(기존) : " + ws.author);
                         System.out.print("작가 : ");
                         String newAuthor = sc.nextLine();
 
